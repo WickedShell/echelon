@@ -150,7 +150,7 @@ CREATE TABLE `ech_users` (
   `id` smallint(6) unsigned NOT NULL AUTO_INCREMENT,
   `username` varchar(32) NOT NULL,
   `display` varchar(32) DEFAULT NULL,
-  `email` varchar(32) DEFAULT NULL,
+  `email` varchar(64) DEFAULT NULL,
   `password` varchar(64) NOT NULL,
   `salt` varchar(12) NOT NULL,
   `ip` varchar(24) DEFAULT NULL,
